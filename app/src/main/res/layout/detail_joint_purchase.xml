@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f8f7f3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#F8F7F3">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backbuttonexample">
+        </ImageButton>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/homenaje"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Tissue"
+        android:textSize="30dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/homenaje"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text=" from Tom's Market"
+        android:textSize="30dp"
+        android:textColor="@color/black"/>
+
+    <com.dinuscxj.progressbar.CircleProgressBar
+        android:id="@+id/circle_bar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:progress_style="solid_line"
+        app:progress_stroke_width="5dp"
+        app:progress_start_color="#5db075"
+        app:progress_end_color="#5db075"
+        app:progress_text_size="25dp"
+        app:progress_text_color="#5db075"
+        android:layout_marginHorizontal="130dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/detail1"
+        android:layout_marginTop="40dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/detail2"
+        android:layout_marginVertical="10dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/detail3"
+        android:layout_marginVertical="5dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/detail4"
+        android:layout_marginVertical="5dp" />
+
+    <ImageView
+        android:id="@+id/detail5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/detail5"
+        android:layout_marginVertical="5dp" />
+
+
+    <ImageButton
+        android:id="@+id/join_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/join_button"
+        android:layout_gravity="center"
+        android:background="#f8f7f3"
+        />
+
+</LinearLayout>

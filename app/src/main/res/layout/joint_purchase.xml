@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f8f7f3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#F8F7F3">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backbuttonexample">
+        </ImageButton>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:fontFamily="@font/homenaje"
+        android:gravity="center"
+        android:text="Joint Purchase"
+        android:textColor="@color/black"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="20dp"
+        android:fontFamily="@font/noto_sans"
+        android:text="Let's buy together!"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:fontFamily="@font/noto_sans"
+        android:text="Purchase Deadline 2/20"
+        android:textColor="#f44336"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+
+        >
+
+        <LinearLayout
+            android:id="@+id/article1_layout"
+            android:orientation="vertical"
+            android:layout_width="130dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_gravity="center"
+            >
+            <ImageButton
+                android:id="@+id/article1"
+                android:src="@drawable/article1"
+                android:background="#f8f7f3"
+                android:layout_height="130dp"
+                android:layout_width="130dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tissue "
+                android:fontFamily="@font/noto_sans"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/article1_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4/5"
+                android:fontFamily="@font/noto_sans"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="$5"
+                android:fontFamily="@font/noto_sans"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/article2_layout"
+            android:orientation="vertical"
+            android:layout_width="130dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_gravity="center">
+            <ImageButton
+                android:id="@+id/article2"
+                android:src="@drawable/article2"
+                android:background="#f8f7f3"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Laundry detergent"
+                android:fontFamily="@font/noto_sans"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/article2_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3/10"
+                android:fontFamily="@font/noto_sans"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="$10"
+                android:fontFamily="@font/noto_sans"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/article3_layout"
+            android:orientation="vertical"
+            android:layout_width="130dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_gravity="center">
+            <ImageButton
+                android:id="@+id/article3"
+                android:src="@drawable/article3"
+                android:background="#f8f7f3"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fabric softener"
+                android:fontFamily="@font/noto_sans"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/article3_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2/5"
+                android:fontFamily="@font/noto_sans"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="$7.3"
+                android:fontFamily="@font/noto_sans"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/article4_layout"
+            android:orientation="vertical"
+            android:layout_width="130dp"
+            android:layout_marginHorizontal="10dp">
+            <ImageButton
+                android:id="@+id/article4"
+                android:src="@drawable/article4"
+                android:background="#f8f7f3"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Snack set"
+                android:fontFamily="@font/noto_sans"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/article4_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6/10"
+                android:fontFamily="@font/noto_sans"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="$5.1"
+                android:fontFamily="@font/noto_sans"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/article5_layout"
+            android:orientation="vertical"
+            android:layout_width="130dp"
+            android:layout_marginHorizontal="10dp"
+            android:visibility="invisible">
+            <ImageButton
+                android:id="@+id/article5"
+                android:src="@drawable/article5"
+                android:background="#f8f7f3"
+                android:layout_height="80dp"
+                android:layout_width="80dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mask"
+                android:fontFamily="@font/noto_sans"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/article5_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0/10"
+                android:fontFamily="@font/noto_sans"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="$2"
+                android:fontFamily="@font/noto_sans"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+    </GridLayout>
+
+    <ImageButton
+        android:id="@+id/suggest_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/suggest_button"
+        android:background="#f8f7f3"
+        android:scaleType="fitXY"
+        android:layout_gravity="center" />
+
+</LinearLayout>
