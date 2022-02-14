@@ -42,7 +42,7 @@ public class jointPurchase extends AppCompatActivity {
                         article1_amount.setText("5/5");
                         article1Button.setImageResource(R.drawable.soldout);
                     }
-                }, 500);
+                }, 1000);
             }
         });
 

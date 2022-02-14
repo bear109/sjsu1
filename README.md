@@ -29,13 +29,16 @@ implementation 'com.github.bootpay:client_android_java:3.3.91'
 implementation 'com.squareup.okhttp3:okhttp:4.9.2'
 }
 ```
-## Gradle Scripts/build.gradle(Module)
+## Gradle Scripts/setting.gradle(Module)
 
 ```
-repositories {
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
         google()
         mavenCentral()
         jcenter() // Warning: this repository is going to shut down soon
         maven { url 'https://jitpack.io' }
     }
+}
 ```
